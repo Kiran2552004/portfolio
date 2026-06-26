@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kiran Amaresh Madiwalar — Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <span class="tb-method">GET</span>
+    <span class="tb-url">kiran-madiwalar.dev/profile&nbsp;HTTP/2</span>
+    <span class="tb-status"><span class="tb-dot"></span>200 OK · 14 ms</span>
+  </div>
+
+  <div class="shell">
+    <nav class="sidebar" aria-label="Profile sections">
+      <div class="sb-label">Collection</div>
+      <a class="sb-link" data-target="about" href="#about"><span class="tag">GET</span>/about</a>
+      <a class="sb-link" data-target="education" href="#education"><span class="tag">GET</span>/education</a>
+      <a class="sb-link" data-target="skills" href="#skills"><span class="tag">GET</span>/skills</a>
+      <a class="sb-link" data-target="projects" href="#projects"><span class="tag">GET</span>/projects</a>
+      <a class="sb-link" data-target="achievements" href="#achievements"><span class="tag">GET</span>/achievements</a>
+      <a class="sb-link" data-target="certifications" href="#certifications"><span class="tag">GET</span>/certs</a>
+      <a class="sb-link" data-target="contact" href="#contact"><span class="tag">POST</span>/contact</a>
+    </nav>
+
+    <main class="panel">
+
+      <header class="hero">
+        <div class="hero-eyebrow">// full-stack developer · bangalore, india</div>
+        <h1>Kiran Amaresh<br>Madiwalar</h1>
+        <p class="role">B.Tech CSE engineer who builds REST APIs and ships full-stack products end to end — Spring Boot, the MERN stack, and a couple of ML models along the way.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:mkirankumar995@gmail.com"><span class="verb">SEND</span> Email</a>
+          <a class="btn" href="https://github.com/Kiran2552004" target="_blank" rel="noopener"><span class="verb">GET</span> GitHub</a>
+          <a class="btn" href="https://linkedin.com/in/kiran-madiwalar-949391259" target="_blank" rel="noopener"><span class="verb">GET</span> LinkedIn</a>
+        </div>
+      </header>
+
+      <section id="about">
+        <div class="sec-head">
+          <span class="path mono">GET /about</span>
+          <h2>Summary</h2>
+          <span class="status-pill">200 OK</span>
+        </div>
+        <div class="about-card">
+          <div class="field"><span class="k">name</span><span class="v">Kiran Amaresh Madiwalar</span></div>
+          <div class="field"><span class="k">role</span><span class="v">Full-Stack Developer</span></div>
+          <div class="field"><span class="k">location</span><span class="v">Bangalore, India</span></div>
+          <div class="field"><span class="k">summary</span><span class="v summary">B.Tech CSE graduate with strong skills in Java, Python, SQL, and full-stack development. Builds scalable web applications using Spring Boot and the MERN stack, and has hands-on experience with REST APIs, chatbot integrations, and machine learning applications.</span></div>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="sec-head">
+          <span class="path mono">GET /education</span>
+          <h2>Education</h2>
+          <span class="status-pill">200 OK</span>
+        </div>
+        <div class="edu-grid">
+          <div class="edu-card">
+            <div>
+              <div class="school">REVA University</div>
+              <div class="deg">B.Tech, Computer Science & Engineering · 2022 – 2026</div>
+            </div>
+            <span class="score-pill">CGPA 9.3</span>
+          </div>
+          <div class="edu-card">
+            <div>
+              <div class="school">Sri Guru Chaitanya PU College, Ilkal</div>
+              <div class="deg">Class XII · 2020 – 2022</div>
+            </div>
+            <span class="score-pill">95.67%</span>
+          </div>
+          <div class="edu-card">
+            <div>
+              <div class="school">ACO English Medium High School, Ilkal</div>
+              <div class="deg">Class X · 2020</div>
+            </div>
+            <span class="score-pill">91.84%</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="sec-head">
+          <span class="path mono">GET /skills</span>
+          <h2>Skills</h2>
+          <span class="status-pill">200 OK</span>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-row">
+            <span class="k">languages</span>
+            <div class="chip-row">
+              <span class="chip">Java</span><span class="chip">Python</span><span class="chip">C</span>
+              <span class="chip">JavaScript</span><span class="chip">SQL</span><span class="chip">C#</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="k">frontend</span>
+            <div class="chip-row">
+              <span class="chip">HTML5</span><span class="chip">CSS</span><span class="chip">React.js</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="k">backend</span>
+            <div class="chip-row">
+              <span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">Spring Boot</span><span class="chip">ASP.NET Core</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="k">databases</span>
+            <div class="chip-row">
+              <span class="chip">MongoDB</span><span class="chip">MySQL</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="k">concepts</span>
+            <div class="chip-row">
+              <span class="chip">Data Structures & Algorithms</span><span class="chip">OOP</span><span class="chip">REST APIs</span>
+              <span class="chip">Agile/Scrum</span><span class="chip">Microservices</span><span class="chip">SDLC</span><span class="chip">CI/CD</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="k">tools</span>
+            <div class="chip-row">
+              <span class="chip">Docker</span><span class="chip">Postman</span><span class="chip">Git</span><span class="chip">Swagger</span><span class="chip">GitHub</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="sec-head">
+          <span class="path mono">GET /projects</span>
+          <h2>Projects</h2>
+          <span class="status-pill">200 OK</span>
+        </div>
+        <div class="proj-grid">
+
+          <div class="proj-card">
+            <div class="proj-head">
+              <h3>Online Chatbot-Based Ticketing System</h3>
+              <div class="proj-links">
+                <a class="proj-link" href="https://github.com/Kiran2552004/Online-Chatbot-based-ticketing-system" target="_blank" rel="noopener"><span class="m">GET</span> GitHub</a>
+                <span class="proj-link" title="Live demo"><span class="m">GET</span><a href="https://online-chatbot-based-ticketin-git-5e0598-kiran2552004s-projects.vercel.app/">Live Demo</a></span>
+              </div>
+            </div>
+            <div class="proj-tech chip-row">
+              <span class="chip">MongoDB</span><span class="chip">Express.js</span><span class="chip">React.js</span>
+              <span class="chip">Node.js</span><span class="chip">JWT</span><span class="chip">REST API</span>
+              <span class="chip">Dialogflow</span><span class="chip">Git</span><span class="chip">Postman</span>
+            </div>
+            <ul>
+              <li>Full-stack ticketing platform with chatbot integration for automated issue creation and support.</li>
+              <li>Microservices for authentication, ticket management, and notifications, with JWT-based role access control.</li>
+              <li>REST APIs and email notifications for real-time ticket tracking and improved support workflows.</li>
+            </ul>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-head">
+              <h3>Power Consumption Prediction System</h3>
+            </div>
+            <div class="proj-tech chip-row">
+              <span class="chip">Python</span><span class="chip">Flask</span><span class="chip">Scikit-learn</span>
+              <span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">Matplotlib/Seaborn</span><span class="chip">Git</span>
+            </div>
+            <ul>
+              <li>Machine learning model to predict power consumption from historical data.</li>
+              <li>Flask-based web interface for prediction and data visualization.</li>
+              <li>Improved prediction accuracy by ~15% through data preprocessing and feature engineering.</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="achievements">
+        <div class="sec-head">
+          <span class="path mono">GET /achievements</span>
+          <h2>Achievements</h2>
+          <span class="status-pill">200 OK</span>
+        </div>
+        <div class="ach-grid">
+          <div class="ach-card">
+            <span class="tag">National Hackathon</span>
+            <h3>Top Team Selection — COLOSSUS 2.0</h3>
+            <p>Selected among the top teams for developing an AI-based solution within tight timelines.</p>
+          </div>
+          <div class="ach-card">
+            <span class="tag">National-Level Finalist</span>
+            <h3>Avinaya Hackathon</h3>
+            <p>Showcased problem-solving, teamwork, and technical execution under time pressure.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications">
+        <div class="sec-head">
+          <span class="path mono">GET /certifications</span>
+          <h2>Certifications</h2>
+          <span class="status-pill">200 OK</span>
+        </div>
+        <div class="cert-list">
+          <div class="cert-row">
+            <span class="name">Full-Stack Web Development Bootcamp</span>
+            <span class="src">Udemy</span>
+          </div>
+          <div class="cert-row">
+            <span class="name">Introduction to Database Systems</span>
+            <span class="src">NPTEL</span>
+          </div>
+          <div class="cert-row">
+            <span class="name">Salesforce Certified Agentforce Specialist</span>
+            <span class="src">Salesforce</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="sec-head">
+          <span class="path mono">POST /contact</span>
+          <h2>Get in touch</h2>
+          <span class="status-pill">200 OK</span>
+        </div>
+        <div class="contact-card">
+          <div class="contact-grid">
+            <div class="contact-row">
+              <span class="k">email</span>
+              <a href="mailto:mkirankumar995@gmail.com">mkirankumar995@gmail.com</a>
+            </div>
+            <div class="contact-row">
+              <span class="k">phone</span>
+              <a href="tel:+917676658995">+91 76766 58995</a>
+            </div>
+            <div class="contact-row">
+              <span class="k">location</span>
+              <span class="v">Bangalore, India</span>
+            </div>
+            <div class="contact-row">
+              <span class="k">linkedin</span>
+              <a href="https://linkedin.com/in/kiran-madiwalar-949391259" target="_blank" rel="noopener">linkedin.com/in/kiran-madiwalar-949391259</a>
+            </div>
+            <div class="contact-row">
+              <span class="k">github</span>
+              <a href="https://github.com/Kiran2552004" target="_blank" rel="noopener">github.com/Kiran2552004</a>
+            </div>
+          </div>
+          <div class="meta-line">
+            <b>languages:</b> English, Hindi, Kannada &nbsp;·&nbsp;
+            <b>interests:</b> Hackathons, Coding Competitions, Building Scalable Projects, Problem Solving
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <span>© 2026 Kiran Amaresh Madiwalar</span>
+        <span>connection: open · cache: 0 ms</span>
+      </footer>
+
+    </main>
+  </div>
+
+<script>
+  // Scrollspy: highlight sidebar link for the section in view
+  const links = Array.from(document.querySelectorAll('.sb-link'));
+  const sections = links.map(l => document.getElementById(l.dataset.target)).filter(Boolean);
+
+  const spy = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const link = links.find(l => l.dataset.target === entry.target.id);
+      if (!link) return;
+      if (entry.isIntersecting){
+        links.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
+
+  sections.forEach(s => spy.observe(s));
+
+  // Reveal sections on scroll
+  const reveal = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting){
+        entry.target.classList.add('is-visible');
+        reveal.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('section, .hero').forEach(el => {
+    el.classList.add('is-visible'); // default visible (no-js / reduced-motion safe)
+  });
+
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    document.querySelectorAll('section').forEach(el => {
+      el.classList.remove('is-visible');
+      reveal.observe(el);
+    });
+  }
+</script>
+
+</body>
+</html>
